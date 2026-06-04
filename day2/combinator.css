@@ -1,0 +1,31 @@
+span h1{
+    background-color: aquamarine;
+}
+
+div h1{
+    background-color: crimson;
+}
+
+div>h2{
+    background-color: beige;
+}
+
+div>section>h1{
+    background-color: brown;
+}
+
+span>h2+h3{
+    background-color: blueviolet;
+}
+
+span>h3{
+    background-color: chocolate;
+}
+
+section h2{
+    background-color: darkslategrey;
+}
+
+h1~h2{
+    background-color: darkgoldenrod;
+}
