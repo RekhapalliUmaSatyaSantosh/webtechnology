@@ -1,7 +1,7 @@
 p{
     background-color: brown;
     color: white;
-    background-image: url('');
+    background-image: url('image-path');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -9,5 +9,5 @@ p{
 }
 section{
     color: white;
-    background: url('../day3/earth-sunrise-3840x2160-12523.jpg') center 10px/1200px fixed no-repeat;
+    background: url('image-path') center 10px/1200px fixed no-repeat;
 }
