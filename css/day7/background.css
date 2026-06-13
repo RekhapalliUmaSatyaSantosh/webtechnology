@@ -1,0 +1,13 @@
+p{
+    background-color: brown;
+    color: white;
+    background-image: url('');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section{
+    color: white;
+    background: url('../day3/earth-sunrise-3840x2160-12523.jpg') center 10px/1200px fixed no-repeat;
+}
