@@ -1,0 +1,27 @@
+section{
+    border: 2px solid rebeccapurple;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    overflow: scroll;
+}
+main{
+    border: 2px solid blue;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+p{
+    border: 2px solid red;
+    height: 200%;
+    width: 200%;
+    
+}
+article{
+    border: 5px solid darkred;
+    height: 200px;
+    width: 200px;
+    overflow-y: hidden;
+    overflow-y: scroll;
+}
