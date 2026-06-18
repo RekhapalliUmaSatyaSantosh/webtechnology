@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    line-height: 35px;
+    margin-top: -4%;
+    margin-left: 10%;
+
+}
+img{
+    height: 10%;
+    width: 10%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+#d1{
+    color: rgba(232, 238, 243, 0.393);
+}
+.d1{
+    margin-left: 40px;
+}
+section{
+    display: flex;
+    height: 10px;
+    width: 350px;
+}
+.ul{
+    display: flex;
+}
+#img1,#img2,#img3{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
