@@ -1,0 +1,59 @@
+section{
+    border: 2px solid;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+section div{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+section #d2{
+    align-self: center;
+}
+section #d4{
+    align-self: flex-end;
+}
+aside{
+    border: 2px solid;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+aside div{
+     border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+aside #d1{
+    background-color: brown;
+    z-index: 5;
+
+}
+aside #d2{
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 75%;
+    /* opacity: 0.6; */
+    z-index: 4;
+}
+aside #d3{
+    background-color: crimson;
+    position: absolute;
+    left: 80px;
+    top: 80%;
+    /* opacity: 0.7; */
+    z-index: 3;
+}
+aside #d4{
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    top: 90%;
+    /* opacity: 0.6; */
+    z-index: 2;
+}
