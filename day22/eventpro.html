@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gp{
+            border: 3px solid;
+            height: 300px;
+            width: 500px;
+            margin: auto;
+            text-align: center;
+            display: flex;
+        }
+        #p1{
+            border: 3px solid;
+            height: 150px;
+            width: 200px;
+            margin: 73px -35px;
+        }
+        #p2{
+            border: 3px solid;
+            height: 150px;
+            width: 200px;
+            margin: auto;
+        }
+        #ch1{
+            border: 3px solid;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+        }
+        #ch2{
+            border: 3px solid;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+        }
+        #ch3{
+            border: 3px solid;
+            height: 50px;
+            width: 80px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="gp">
+        GrandParent
+        <div id="p1">
+            Parent
+            <div id="ch1">
+                Child
+            </div>
+        </div>
+        <div id="p2">
+            Parent
+            <div id="ch2">
+                Child
+                <div id="ch3">
+                    Grand Child
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="butt"></button>
+    <script src="./eventpro.js"></script>
+</body>
+</html>
