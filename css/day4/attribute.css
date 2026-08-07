@@ -1,0 +1,34 @@
+[id]{
+    background-color: cyan;
+}
+[class]{
+    background-color: burlywood;
+}
+[id="d1"]{
+    background-color: cornflowerblue;
+}
+[class="c1"]{
+    background-color: darkolivegreen;
+}
+[class="c3"]{
+    background-color: brown;
+}
+[type]{
+    background-color: darkviolet;
+    accent-color: green;
+}
+[id*="rose"]{
+    background-color: dodgerblue;
+}
+[id~="red"]{
+    background-color: khaki;
+}
+[id^="rose"]{
+    background-color: tomato;
+}
+[id$="rose"]{
+    background-color: rgb(110, 110, 5);
+}
+[id|="red"]{
+    background-color: crimson;
+}

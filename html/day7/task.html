@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: bisque;
+    }
+    .c1{
+        background-color: green;
+    }
+    #d1{
+        background-color: red;
+    }
+    #d2{
+        background-color: crimson;
+    }
+    #d3{
+        background-color: orange;
+    }
+    #d4{
+        color: red;
+    }
+    #d5{
+        color: green;
+    }
+    </style>
+
+</head>
+<body>
+    <ol type="A" start="2">
+        <li>Background-color
+            <ul>
+                <li id="d1">Red</li>
+                <li class="c1">Green</li>
+                <li>Background-color 1.1
+                    <ol type="A" start="4">
+                        <li id="d2">Crimson</li>
+                        <li id="d3">Orange</li>
+                        <li class="c1">Green</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <ol type="A" start="3">
+        <li>Color
+            <ol><li>Color 1.1
+                <ol type="1" start="100">
+                    <li id="d4">Red</li>
+                    <li id="d5">Green</li><br>
+                    <li>Note</li>
+                    <dd>Lorem ipsum dolor sit amet.</dd>
+                </ol>
+            </li></ol>
+        </li>
+    </ol>
+</body>
+</html>

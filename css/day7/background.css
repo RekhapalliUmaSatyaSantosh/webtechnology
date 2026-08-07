@@ -1,0 +1,13 @@
+p{
+    background-color: brown;
+    color: white;
+    background-image: url('image-path');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section{
+    color: white;
+    background: url('image-path') center 10px/1200px fixed no-repeat;
+}

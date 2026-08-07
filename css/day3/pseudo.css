@@ -1,0 +1,28 @@
+section::first-letter{
+    color: red;
+}
+
+section::first-line{
+    color: rgb(83, 188, 83);
+}
+
+p::after{
+    content: url("./earth-sunrise-3840x2160-12523.jpg");
+    content: "hello";
+}
+p::before{
+    content: 'hello';
+}
+ol>li::marker{
+    content: '🦇';
+}
+ol>li+li::marker{
+    content: '🥸';
+}
+ol>li+li+li::marker{
+    content: '🧑🏻';
+}
+*::selection{
+    background: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+    color: aquamarine;
+}

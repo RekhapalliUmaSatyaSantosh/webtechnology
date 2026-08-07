@@ -1,0 +1,21 @@
+a:link{   
+    color: brown;
+}
+a:active{
+    color: deepskyblue;
+}
+a:visited{
+    color: crimson;
+}
+#id1:focus{
+    background-color: blueviolet;
+    color: aqua;
+}
+#id2:checked{
+    height: 100px;
+    width: 100px;
+    accent-color: brown;
+}
+#id3:hover{
+    background-color: cadetblue;
+}

@@ -1,0 +1,45 @@
+/* .parent{
+    border: 3px solid green;
+    background-color: aqua;
+    height: 20px;
+}
+.child{
+    border: 3px solid blue;
+    background-color: brown;
+} */
+nav{
+    background-color: crimson;
+    height: 100px;
+    width: 100%;
+    /* position: fixed; */
+    position: sticky;
+    top: 0%;
+}
+section{
+    border: 3px solid;
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    position: relative;
+}
+div{
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+}
+#d1{
+    background-color: blue;
+    
+}
+#d2{
+    background-color: chartreuse;
+    position: absolute;
+    left: 21%;
+    top: 21%;
+}
+#d3{
+    background-color: rgb(158, 129, 11);
+    position: absolute;
+    bottom: 37%;
+    left: 42%;
+}
